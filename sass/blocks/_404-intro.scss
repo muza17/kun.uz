@@ -26,14 +26,16 @@
         background: #FFFFFF;
         border: 1px solid #0C2F75;
         box-sizing: border-box;
+        text-decoration: none;
 
         &-img{
             float: left;
 
         }
         &-text{
+            text-decoration: none;
             margin-left: 15px;
-            font-family: Montserrat;
+            font-family: 'Montserrat';
             font-style: normal;
             font-weight: 500;
             font-size: 14px;
