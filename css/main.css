@@ -367,6 +367,14 @@ body {
   margin-right: auto;
 }
 
+.container-frame3 {
+  max-width: 1386px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -686,5 +694,275 @@ img {
 
 .footer-intro__icons-item {
   margin-left: 28px;
+}
+
+.telephones {
+  padding-top: 84px;
+  padding-bottom: 200px;
+}
+
+.telephones__heading {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 81px;
+}
+
+.telephones__span {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.telephones__cards {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+.telephones__cards .card1 {
+  max-width: 319px;
+}
+
+.telephones__cards .card1__img {
+  display: block;
+  margin-bottom: 16.67px;
+}
+
+.telephones__cards .card1__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 11.67px;
+}
+
+.telephones__cards .card1__info-icon {
+  margin-right: 12.5px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.telephones__cards .card1__info-date {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.telephones__cards .card1__title {
+  margin-bottom: 9px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.telephones__cards .card1__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.telephones__cards .card2 {
+  max-width: 319px;
+}
+
+.telephones__cards .card2__img {
+  display: block;
+  margin-bottom: 16.67px;
+}
+
+.telephones__cards .card2__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 11.67px;
+}
+
+.telephones__cards .card2__info-icon {
+  margin-right: 12.5px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.telephones__cards .card2__info-date {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.telephones__cards .card2__title {
+  margin-bottom: 11.67px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.telephones__cards .card3 {
+  max-width: 319px;
+}
+
+.telephones__cards .card3__img {
+  display: block;
+  margin-bottom: 16.67px;
+}
+
+.telephones__cards .card3__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 11.67px;
+}
+
+.telephones__cards .card3__info-icon {
+  margin-right: 12.5px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.telephones__cards .card3__info-date {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.telephones__cards .card3__title {
+  margin-bottom: 9px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.telephones__cards .card4 {
+  max-width: 319px;
+}
+
+.telephones__cards .card4__img {
+  display: block;
+  margin-bottom: 16.67px;
+}
+
+.telephones__cards .card4__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 11.67px;
+}
+
+.telephones__cards .card4__info-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 22px;
+}
+
+.telephones__cards .card4__info-icon {
+  margin-right: 7px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.telephones__cards .card4__info-date {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.telephones__cards .card4__info-seen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.telephones__cards .card4__title {
+  margin-bottom: 9px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.telephones__cards .card4__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.6;
 }
 /*# sourceMappingURL=main.css.map */
