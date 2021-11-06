@@ -1,0 +1,82 @@
+.lastnews{
+
+    &__heading{
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat';
+        font-style: bold;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        margin-bottom: 45px;
+    }
+    &__cards{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style-type: none;
+        margin-bottom: 40px;
+
+        .card{
+            max-width: 319px;
+
+            &__img{
+                display: block;
+                margin-bottom: 16.67px;
+            }
+            &__info{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 11.67px;
+
+                &-time{
+                    display: flex;
+                    flex-direction: row;
+                    margin-right: 22px;
+                }
+                &-icon{
+                    margin-right: 7px;
+                    color: #000000;
+                    opacity: 0.6;
+                    
+                }
+                &-date{
+                    margin: 0;
+                    padding: 0;
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #000000;
+                    opacity: 0.6;
+                }
+                &-seen{
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+            &__title{
+                margin-bottom: 9px;
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 27px;
+                color: #000000;
+            }
+            &__text{
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 22px;
+                color: #000000;
+                opacity: 0.6;
+            }
+        }
+    }
+}

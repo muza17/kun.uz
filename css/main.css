@@ -965,4 +965,112 @@ img {
   color: #000000;
   opacity: 0.6;
 }
+
+.lastnews__heading {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 45px;
+}
+
+.lastnews__cards {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  margin-bottom: 40px;
+}
+
+.lastnews__cards .card {
+  max-width: 319px;
+}
+
+.lastnews__cards .card__img {
+  display: block;
+  margin-bottom: 16.67px;
+}
+
+.lastnews__cards .card__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 11.67px;
+}
+
+.lastnews__cards .card__info-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 22px;
+}
+
+.lastnews__cards .card__info-icon {
+  margin-right: 7px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.lastnews__cards .card__info-date {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.lastnews__cards .card__info-seen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.lastnews__cards .card__title {
+  margin-bottom: 9px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.lastnews__cards .card__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.6;
+}
 /*# sourceMappingURL=main.css.map */
