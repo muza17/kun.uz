@@ -371,6 +371,7 @@ body {
   max-width: 1386px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 191px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -966,6 +967,10 @@ img {
   opacity: 0.6;
 }
 
+.lastnews {
+  margin-bottom: 100px;
+}
+
 .lastnews__heading {
   margin: 0;
   padding: 0;
@@ -981,6 +986,7 @@ img {
 .lastnews__cards {
   margin: 0;
   padding: 0;
+  margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -992,7 +998,6 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style-type: none;
-  margin-bottom: 40px;
 }
 
 .lastnews__cards .card {
@@ -1065,6 +1070,130 @@ img {
 }
 
 .lastnews__cards .card__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.interview__heading {
+  margin-bottom: 47px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.interview__cards {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  margin-bottom: 32px;
+}
+
+.interview__cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.interview__cards .card__right {
+  max-width: 319px;
+}
+
+.interview__cards .card__left {
+  max-width: 319px;
+  margin-right: 30px;
+}
+
+.interview__cards .card__img {
+  display: block;
+  max-width: 319px;
+}
+
+.interview__cards .card__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 25px;
+}
+
+.interview__cards .card__info-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 22px;
+}
+
+.interview__cards .card__info-icon {
+  margin-right: 7px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.interview__cards .card__info-date {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.interview__cards .card__info-seen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.interview__cards .card__title {
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.interview__cards .card__text {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
